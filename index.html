@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<!-- Vue -->
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<!-- Axioss --->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+	</head>
+	<body>
+		<div id="root">
+			<div class="container">
+				<h1>Le Email Randomiche scambiate con il server Boolean sono:</h1>
+				<ul>
+					<li v-for='mail in mails'>{{ mail }}</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Custom JS -->
+		<script src="js/script.js" charset="utf-8"></script>
+	</body>
+</html>
